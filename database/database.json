@@ -1,0 +1,74 @@
+[
+   {
+      "id": 2,
+      "name": "Greatness",
+      "image": "perfume-bottle-with-box-mockup_58466-13392.webp",
+      "brand": "SMART",
+      "category": "Fashion",
+      "description": "To smell nice is gold",
+      "price": "12000",
+      "countInStock": "126",
+      "rating": "5",
+      "numReviews": "very. good on my baby skin"
+   },
+   {
+      "id": 4,
+      "name": "beautiful",
+      "image": "https://img.freepik.com/premium-photo/perfumery-spa-branding-concept-pink-perfume-bottle-glossy-background-sweet-floral-scent-glamour-fragrance-eau-de-parfum-as-holiday-gift-luxury-beauty-cosmetics-brand-design_360074-376.jpg?size=338&ext=jpg&ga=GA1.2.1854975922.1667660562",
+      "brand": "mulf",
+      "category": "Fashion",
+      "description": "nice fragance",
+      "price": "12000",
+      "countInStock": "80",
+      "rating": "5",
+      "numReviews": "nice"
+   },
+   {
+      "id": 5,
+      "name": "blueberry cake",
+      "image": "beautiful-composition-with-perfume-bottle-pink-table_392895-24167.webp",
+      "brand": "Cake and Creams",
+      "category": "Food",
+      "description": "Great taste",
+      "price": "10000",
+      "countInStock": "2",
+      "rating": "5",
+      "numReviews": "nice"
+   },
+   {
+      "id": 6,
+      "name": "GREAT HEIGTH",
+      "image": "https://img.freepik.com/free-photo/front-view-sweet-chocolate-cake_23-2148834059.jpg?size=626&ext=jpg&ga=GA1.2.1854975922.1667660562&semt=sph",
+      "brand": "Cake and Creams",
+      "category": "Food",
+      "description": "Taste is good",
+      "price": "12900",
+      "countInStock": "4000",
+      "rating": "5",
+      "numReviews": "well, its not that bad"
+   },
+   {
+      "id": 7,
+      "name": "GREAT HEIGTH",
+      "image": "https://img.freepik.com/free-photo/front-view-sweet-chocolate-cake_23-2148834059.jpg?size=626&ext=jpg&ga=GA1.2.1854975922.1667660562&semt=sph",
+      "brand": "Cake and Creams",
+      "category": "Food",
+      "description": "Taste is good",
+      "price": "12900",
+      "countInStock": "4000",
+      "rating": "5",
+      "numReviews": "well, its not that bad"
+   },
+   {
+      "id": 8,
+      "name": "GREAT HEIGTH",
+      "image": "https://img.freepik.com/free-photo/front-view-sweet-chocolate-cake_23-2148834059.jpg?size=626&ext=jpg&ga=GA1.2.1854975922.1667660562&semt=sph",
+      "brand": "Cake and Creams",
+      "category": "Food",
+      "description": "Taste is good",
+      "price": "12900",
+      "countInStock": "4000",
+      "rating": "5",
+      "numReviews": "well, its not that bad"
+   }
+]

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+<head>
+  <%- include('./partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('./partials/header'); %>
+</header>
+
+<div class = 'containter'>
+    <div class="signup">
+      <h1>Welcome To Urich Online Store</h1>
+      <p>Welcome! Please enter your details</p>
+
+      <div class="row g-6">
+        <div class="col-6 offset-3 border-secondary shadow py-3 px-5 rounded">
+          <form class="form_container" method="post" action="/users/register" enctype="application/x-www-form-urlencoded">
+            <div class="form-group mb-1">
+              <label for="name" class="form-label"></label>
+              <div class="">
+                <input type="name" class="form-control" id="name" placeholder="Full name" name="name">
+              </div>
+            </div>
+            <div class="form-group mb-1">
+              <label for="colFormLabel" class="form-label"></label>
+              <div class="">
+                <input type="email" class="form-control" id="colFormLabel" placeholder="Email" name="email">
+              </div>
+            </div>
+            <div class=" form-group mb-1">
+              <label for="password" class="form-label"></label>
+              <div class="">
+                <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+              </div>
+            </div>
+            <div class="form-group mb-1">
+              <label for="confirm_password" class="form-label"></label>
+              <div class="">
+                <input type="password" class="form-control" id="repeat_password" placeholder="Confirm Password" name="confirmPassword">
+              </div>
+            </div>
+            <div class="form-group mb-1">
+                <label for="gender" class="form-label"></label>
+                <div class="">
+                  <input type="gender" class="form-control" id="gender" placeholder="Gender" name="gender">
+                </div>
+            </div>
+            <div class="form-group mb-1">
+                <label for="phone" class="form-label"></label>
+                <div class="">
+                  <input type="phone" class="form-control" id="phone" placeholder="Phone" name="phone">
+                </div>
+            </div>
+            <div class="form-group mb-1">
+                <label for="address" class="form-label"></label>
+                <div class="">
+                  <input type="address" class="form-control" id="address" placeholder="address" name="address">
+                </div>
+            </div>
+            <div class="form-group mb-3">
+              <div class="text-center">
+                <input type="submit" class="btn btn-primary" id="submit" value="Sign up" >
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+  <footer>
+    <%- include('./partials/footer'); %>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</body>
+  </html>
